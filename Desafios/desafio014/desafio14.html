@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: darkorange;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover{
+            color: forestgreen;
+            text-decoration: underline;
+            font-style: italic;
+        }
+
+        a:visited{
+            color: mediumblue;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .principal::after{
+            content: ' < ';
+            
+        }
+
+        .principal::before{
+            content: ' > ';
+        }
+
+        .principal{
+            background-color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Desafio de número 14</h1>
+    <ul>
+        <li><a href="#" class="principal">facebook</a></li>
+        <li><a href="#">instagram</a></li>
+        <li><a href="#">orkut</a></li>
+    </ul>
+</body>
+</html>

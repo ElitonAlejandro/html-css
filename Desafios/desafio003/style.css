@@ -1,0 +1,9 @@
+@charset "UTF8";
+body{
+    background-image: linear-gradient(to top, #2444C2, #BDBEC0,#F5C2B8);
+    text-align: center;
+    background-attachment: fixed;
+}
+h1{
+    color: #000000 ;
+}

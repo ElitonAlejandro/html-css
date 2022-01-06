@@ -1,0 +1,50 @@
+@charset "utf-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, #0ed1a796, #fe05fe5e);
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    background-color: yellow;
+    
+}
+
+a:visited{
+    color: darkblue;
+}
+
+a:active{
+    color: darkgreen;
+}
+
+
+
+
+div{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.137);
+    border: 2px solid rgb(44, 56, 50);
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+div:hover{
+    background-color:#2a5f2a;
+}
+
+h1#principal{
+    text-align: center;
+}
+
+
+
